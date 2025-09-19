@@ -9,6 +9,12 @@ compatibility_flags = [ "nodejs_compat" ]
 # database_id = "<DATABASE ID>"
 # migrations_dir = "./migrations"
 
+[[d1_databases]]
+binding = "blazenote"
+database_name = "blazenote"
+database_id = "43202ad0-f147-4f2e-a9e0-45b096c18a2c"
+migrations_dir = "./migrations"
+
 # [ai]
 # binding = "AI"
 

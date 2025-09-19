@@ -13,6 +13,9 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://<your-frontend-domain>.<tld>",
+  "https://blazenote-frontend.pages.dev",
+  "https://fast-maverick.sxplab.com",
+  "https://blazenote-frontend-bhn.pages.dev/",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
